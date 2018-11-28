@@ -21,7 +21,7 @@
 
 ##### lib/model.py : 
 
-##### /data/content_10_knn_graph.txt：Graph structure in the form of adjacency list
+##### data/content_10_knn_graph.txt：Graph structure in the form of adjacency list
 
 
 
