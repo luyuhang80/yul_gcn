@@ -8,13 +8,11 @@
 
 ----
 
-
-
-##### train.py : 
+#### train.py
 
 - Parameter preparation and model training
 
-##### lib/utils.py : Pre-process data (if you need to modify the input data, labels, start from here)
+####lib/utils.py : Pre-process data (if you need to modify the input data, labels, start from here)
 
 - Build_graph（）, The graph structure is constructed by adjacency tables.
 - load_wl（）, Load the vocabulary.
@@ -23,9 +21,9 @@
 - save_data（），Save data preprocessed.
 - load_data（），Load data.
 
-##### lib/model.py : 
+####lib/model.py : 
 
-##### data/content_10_knn_graph.txt：Graph structure in the form of adjacency list
+####data/content_10_knn_graph.txt：Graph structure in the form of adjacency list
 
 
 
