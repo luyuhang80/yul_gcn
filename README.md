@@ -1,27 +1,23 @@
-简介: 以CNSE数据集为例，构建双通道GCN模型，计算文本间的相似度。
+Intro: Taking the CNSE data set as an example, a two-channel GCN model is constructed to calculate the similarity between texts.
 
-作者: 卢宇航 
+Author:  Yuhang Lu
 
 ##### train.py : 
 
-- 参数准备，训练模型，
+- Parameter preparation and model training
 
-- main()：
-  - 根据总词表数量，确定bow特征维度
-  - 输入每篇文章得到特定的bow特征，保存成npy格式。
+##### lib/utils.py : Pre-process data (if you need to modify the input data, labels, start from here)
 
-##### lib/utils.py : 预处理数据（如需修改输入数据、标签，从此入手）
+- Build_graph（）, The graph structure is constructed by adjacency tables.
+- load_wl（）, Load the vocabulary.
+- build_bow（），Construct bagofwords features.
+- prepair_data（）
+- save_data（），Save data preprocessed.
+- load_data（），Load data.
 
-- Build_graph（），通过邻接表构建图结构。
-- load_wl（），读取词表。
-- build_bow（），构建bow特征。
-- prepair_data（），数据整体预处理。
-- save_data（），保存处理好的数据，方便直接读取。
-- load_data（），读取处理好的数据。
+##### lib/model.py : 
 
-##### lib/model.py : 模型文件
-
-##### /data/content_10_knn_graph.txt：以邻接表形式存在的图结构
+##### /data/content_10_knn_graph.txt：Graph structure in the form of adjacency list
 
 
 
