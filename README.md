@@ -10,7 +10,7 @@
   - 根据总词表数量，确定bow特征维度
   - 输入每篇文章得到特定的bow特征，保存成npy格式。
 
-##### lib/utils.py : 预处理数据
+##### lib/utils.py : 预处理数据（如需修改输入数据、标签，从此入手）
 
 - Build_graph（），通过邻接表构建图结构。
 - load_wl（），读取词表。
@@ -20,6 +20,10 @@
 - load_data（），读取处理好的数据。
 
 ##### lib/model.py : 模型文件
+
+##### /data/content_10_knn_graph.txt：以邻接表形式存在的图结构
+
+
 
 
 
