@@ -1,4 +1,4 @@
-###Taking the CNSE data set as an example, a two-channel GCN model is constructed to calculate the similarity between texts.
+### Taking the CNSE data set as an example, a two-channel GCN model is constructed to calculate the similarity between texts. What's more, you can also change one channel to load the picture features and then this task is about cross modal retrevial.
 
 ----
 
