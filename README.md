@@ -1,4 +1,4 @@
-#### Intro: Taking the CNSE data set as an example, a two-channel GCN model is constructed to calculate the similarity between texts.
+###Taking the CNSE data set as an example, a two-channel GCN model is constructed to calculate the similarity between texts.
 
 ----
 
