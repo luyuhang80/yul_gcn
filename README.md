@@ -19,7 +19,7 @@
 - save_data（），保存处理好的数据，方便直接读取。
 - load_data（），读取处理好的数据。
 
-##### model.py : 模型文件
+##### lib/model.py : 模型文件
 
 
 
